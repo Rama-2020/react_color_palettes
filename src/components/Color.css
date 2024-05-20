@@ -9,4 +9,14 @@
     color: white;
     font-size: 10px;
 }
-  
+
+
+/* Apply border-radius to the first child */
+.color:first-child {
+    border-radius: 15px 15px 0px 0px;
+}
+
+/* Apply border-radius to the last child */
+.color:last-child {
+    border-radius: 0px 0px 15px 15px;
+}
