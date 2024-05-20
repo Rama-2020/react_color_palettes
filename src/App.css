@@ -8,3 +8,26 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
+/* Styling for the search input */
+.search-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-input:focus {
+    border-color: #007BFF; /* Blue border on focus */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2); /* Subtle shadow on focus */
+}
+
+.search-input::placeholder {
+    color: #999;
+}

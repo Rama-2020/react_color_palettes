@@ -23,6 +23,7 @@ function App() {
     <div className="App">
       <h1>Color Palettes</h1>
       <input
+        className="search-input"
         type="text"
         placeholder="Search palette colors..."
         value={searchTerm}
