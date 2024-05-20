@@ -20,7 +20,8 @@ function Color({ color }) {
     onMouseEnter={handleMouseEnter}
     onMouseLeave={handleMouseLeave}
     >
-        { isHovered ? <p>{color}</p> : null}
+        {/* { isHovered ? <p>{color}</p> : null} */}
+        <p>{color}</p>
     </div>
   );
 }
