@@ -10,6 +10,11 @@
     font-size: 10px;
 }
 
+.color p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
 
 /* Apply border-radius to the first child */
 .color:first-child {
