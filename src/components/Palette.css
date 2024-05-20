@@ -8,5 +8,6 @@
   
 .colors {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: center; */
+    flex-direction: column;
 }
