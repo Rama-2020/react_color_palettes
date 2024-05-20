@@ -1,9 +1,22 @@
 .palette {
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
     width: 250px;
+}
+
+/* Header styling for the palette name */
+.palette-header {
+    background-color: #000000;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
+    /* border-bottom: 1px solid #000000; */
 }
   
 .colors {

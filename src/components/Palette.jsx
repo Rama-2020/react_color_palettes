@@ -5,12 +5,12 @@ import './Palette.css';
 function Palette({ palette }) {
   return (
     <div className="palette">
-      <h2>{palette.name}</h2>
-      <div className="colors">
+        <div class="palette-header">{palette.name}</div>
+        <div className="colors">
         {palette.colors.map((color, index) => (
-          <Color key={index} color={color} />
+            <Color key={index} color={color} />
         ))}
-      </div>
+        </div>
     </div>
   );
 }
