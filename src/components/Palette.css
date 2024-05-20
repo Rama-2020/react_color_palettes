@@ -1,0 +1,12 @@
+.palette {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+}
+  
+.colors {
+    display: flex;
+    flex-wrap: wrap;
+}
